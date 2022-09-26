@@ -14,9 +14,7 @@
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
-  /* выше установили ограничения для секции */
   position: relative;
-  display: flex;
   background-color: #f2f2f2;
   overflow: hidden;
 }
@@ -29,7 +27,6 @@
   left: 64px;
   background-image:url(../images/logo_place_header.svg) ;
   z-index: 2;
-
 }
 
 .header__title{
