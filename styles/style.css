@@ -12,6 +12,8 @@
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
+  --trans: 0.25s linear;/* установил переменную для всей страницы */
+  --opc: 0.55;
 }
 
 .header {
@@ -62,6 +64,12 @@
 .header__link{
   text-decoration: none;
   color: #2f80ed;
+  opacity: 1.0;
+  transition: var(--trans);
+}
+
+.header__link:hover{
+  opacity: var(--opc);
 }
 
 .header__main-illustration{
@@ -137,7 +145,6 @@
 
 /*=========== T E C H N I Q U E S =============*/
 .techniques{
-  border: 1px solid red;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -147,7 +154,6 @@
 }
 
 .cards{
-  border: 1px solid rgb(0, 170, 255);
   display: flex;
   max-width: 920px;
   flex-wrap: wrap;
@@ -157,7 +163,6 @@
 }
 
 .cards__item{
-  border: 1px solid rgb(30, 0, 255);
   width: 238px;
   text-align: center;
   margin-right: 100px;
@@ -168,7 +173,6 @@
 }
 
 .cards__image{
-  border: 1px solid rgb(183, 255, 0);
   padding: 0;
   width: 160px;
   height: 160px;
@@ -188,7 +192,6 @@
 
 /*=========== V I D E O =============*/
 .video{
-  border: 1px solid rgb(0, 170, 255);
   position: relative;
   display: flex;
   flex-direction: column;
@@ -199,13 +202,11 @@
 .video__iframes{
   display: flex;
   position: absolute;
-  border: 1px solid rgb(221, 0, 255);
   top: 275px;
   z-index: 1;
 }
 
 .video_wnd{
-  border: 1px solid rgb(0, 170, 255);
   width: 515px;
   height: 316px;
   margin-right: 20px;
@@ -266,6 +267,12 @@
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
+  opacity: 1.0;
+  transition: var(--trans);
+}
+
+.feynman__link:hover{
+  opacity: var(--opc);
 }
 
 /*=========== Цифры и факты =============*/
@@ -411,6 +418,12 @@
   font-weight: normal;
   color: #2f80ed;
   text-decoration: none;
+  opacity: 1.0;
+  transition: var(--trans);
+}
+
+.khan__buy-link:hover{
+  opacity: var(--opc);
 }
 
 
@@ -501,9 +514,14 @@
 }
 
 .resources__logo{
-  border: 1px solid rgb(0, 255, 17);
   width: 270px;
   height: 38px;
+  opacity: 1.0;
+  transition: var(--trans);
+}
+
+.resources__logo:hover{
+  opacity: var(--opc);
 }
 
 .resources__logo_arzamas{
@@ -598,12 +616,18 @@
   margin: 20px 0 16px 0;
 }
 
+
 .footer__link{
   text-decoration: none;
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
   color: white;
+  transition: var(--trans);
+}
+
+.footer__link:hover{
+  opacity: var(--opc);
 }
 
 .footer__social-icon{
@@ -611,5 +635,6 @@
   height: 16px;
   padding-right: 10px;
 }
+
 /* СПАСИБО! У меня самый лучший 
     ревьюер !!!)  */
