@@ -191,13 +191,7 @@
   margin: 0;
 }
 
-.oakley{
-  display: flex;
-  justify-content: center;
-  margin: 0;
-  padding-top: 100px;
-  background-color: #f2f2f2;
-}
+/*=========== O A K L E Y =============*/
 
 /*=========== FEYNMAN =============*/
 
@@ -392,8 +386,7 @@
   color: white;
 }
 
-.table_theme_dark{
-  color: white;
+.table{
   display: flex;
   position: relative;
   flex-wrap: wrap;
@@ -401,8 +394,11 @@
   margin: 0;
 }
 
-.table__cell_theme_dark {
+.table_theme_dark{
   color: white;
+}
+
+.table__cell{
   width: 200px;
   margin-right: 0;
   margin-top: 80px;
@@ -411,8 +407,11 @@
   z-index: 2;
 }
 
-.table__heading_theme_dark{
+.table__cell_theme_dark {
   color: white;
+}
+
+.table__heading{
   width: 200px;
   line-height: 1.15;
   font-size: 24px;
@@ -420,13 +419,20 @@
   margin-top: 0;
 }
 
-.table__text_theme_dark{
+.table__heading_theme_dark{
   color: white;
+  }
+
+.table__text{
   width: 200px;
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
   margin: 20px 0 0 0;
+}
+
+.table__text_theme_dark{
+  color: white;
 }
 
 .kaufman__triangle{
@@ -442,13 +448,7 @@
 }
 
 /*=========== SRC    =============*/
-.resources{
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 100px 0 217px 0;
-}
+
 
 .resources__logo-zone{
   min-width: 1100px;
@@ -497,13 +497,7 @@
 }
 
 /*=========== FOOTER =============*/
-.footer{
-  display: flex;
-  position: relative;
-  min-height: 350px;
-  background-color: #1f1f1f;
-  justify-content: center;
-}
+
 
 .footer__columns{
   position: relative;
