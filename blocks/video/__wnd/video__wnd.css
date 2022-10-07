@@ -1,0 +1,10 @@
+.video__wnd{
+    border: 1px solid rgb(0, 170, 255);
+    width: 515px;
+    height: 316px;
+    margin-right: 20px;
+  }
+
+  .video__wnd:last-child{
+    margin: 0;
+  }
