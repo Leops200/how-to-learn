@@ -1,5 +1,4 @@
 .table{
-  border: 1px solid blue;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
