@@ -74,7 +74,7 @@
 
 @import url(../blocks/video/video.css);
 @import url(../blocks/video/__iframes/video__iframes.css);
-@import url(../blocks/video/_wnd/video_wnd.css);
+@import url(../blocks/video/__iframe/video__iframe.css);
 
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__columns/footer__columns.css);
