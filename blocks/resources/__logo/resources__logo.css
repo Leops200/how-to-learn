@@ -3,8 +3,8 @@
     height: 38px;
     opacity: 1.0;
     transition: var(--trans);
-    border: 1px solid red;
-    object-fit: inherit;
+    object-fit: fill;
+    object-position: center;
   }
   
   .resources__logo:hover{
